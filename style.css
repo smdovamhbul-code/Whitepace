@@ -1,0 +1,50 @@
+.project-management{
+    height: 750px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-management .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pM__text-block{
+    max-width: 672px;
+}
+.pM__text-block h2{
+    font-size: 64px;
+    color: black;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.pM__text-block p{
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    margin: 24px 0 60px;
+}
+.blue-btn{
+    font-size: 18px;
+    width: 227px;
+    height: 60px;
+    background-color: #4f9cf0;
+    border-radius: 8px;
+    border: 0;
+}
+.pM__text-block .heading{
+    position: relative;
+}
+.pM__text-block .element{
+    position: absolute;
+    bottom: -10;
+    z-index: 1;
+}
+.pM__img-block{
+    height: 529px;
+    width: 824px;
+    background-color: #4f9cf0;
+
+}

@@ -1,26 +1,27 @@
-.project-management{
-    height: 750px;
+.project-management, .work-together{
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px 0;
 }
-.project-management .container{
+.project-management .container, .work-together .container{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 60px;
 }
-.pM__text-block{
+.pM__text-block, .work-together .text-block{
     max-width: 672px;
 }
-.pM__text-block h2{
+.pM__text-block h2, .work-together .text-block h2{
     font-size: 64px;
     color: black;
     width: 100%;
     position: relative;
     z-index: 2;
 }
-.pM__text-block p{
+.pM__text-block p, .work-together .text-block p{
     color: black;
     font-size: 18px;
     width: 100%;
@@ -34,17 +35,25 @@
     border-radius: 8px;
     border: 0;
 }
-.pM__text-block .heading{
+.pM__text-block .heading, .work-together .heading{
     position: relative;
 }
-.pM__text-block .element{
+.element{
     position: absolute;
-    bottom: -10;
+    bottom: -10px;
     z-index: 1;
 }
 .pM__img-block{
     height: 529px;
     width: 824px;
-    background-color: #4f9cf0;
+    background-color:skyblue;
 
+}
+.work-together .img-block{
+    height: 529px;
+    width: 824px;
+}
+.work-together .img-block img{
+    height: 100%;
+    width: auto;
 }

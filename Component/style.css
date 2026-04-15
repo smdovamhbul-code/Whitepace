@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(234, 238, 240);
+}
+.container{
+    width: 800px;
+    height: 800px;
+    position: relative;
+    margin: auto;
+}
+.xett-1{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px dashed lightblue;
+    top: 100px;
+    left: 100px;
+}
+.xett-2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px dashed lightblue;
+    top: 250px;
+    left: 250px;
+}
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+}
+.center-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.daire-1{
+    background-color: rgba(255, 255, 0, 0.781);
+    top:130px ;
+    left:190px ;
+}
+.daire-2{
+    background-color: rgb(107, 107, 247);
+    top:170px ;
+    right:135px ;
+}
+.daire-3{
+    background-color: rgb(107, 107, 247);
+    top: 360px;
+    right: 220px;
+}
+.daire-4{
+    background-color: rgb(231, 72, 72);
+    top:360px ;
+    left: 70px;
+}
+.daire-5{
+     background-color: rgb(107, 107, 247);
+     bottom:110px ;
+     left:220px ;
+}
+.daire-6{
+    background-color: rgb(97, 185, 119);
+    bottom:220px ;
+    right:100px ;
+}
+.daire-7{
+    background-color: rgb(107, 107, 247);
+    top: 360px;
+    left:220px ;
+}
+.daire-8{
+    background-color: rgb(97, 185, 119);
+    top:220px ;
+    right: 363px;
+}
+.daire-9{
+    background-color: rgb(255, 165, 0);
+    bottom:220px ;
+    left:363px;
+}
